@@ -61,17 +61,6 @@ togglePersonsHandler = () => {
           name={person.name}
           age={person.age} />
       })}
-      <Person 
-        name={this.state.persons[0].name} 
-        age={this.state.persons[0].age} 
-        Click={this.switchNameHandler.bind(this, 'Roigis')} > My Hobbies: Anime </Person>
-      <Person 
-        name={this.state.persons[1].name} 
-        age={this.state.persons[1].age} />
-      <Person 
-        name={this.state.persons[2].name} 
-        age={this.state.persons[2].age} />
-      
         </div>
       );
     }
